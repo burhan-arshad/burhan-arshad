@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=650&lines=Computer+Science+Student;Focused+on+Machine+Learning+and+AI;Shipped+a+Multiplayer+Game+System;Shipped+a+Cloud-Based+SaaS+Platform;Turning+Ideas+Into+Real+Projects" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=650&lines=Computer+Science+Student;Focused+on+Machine+Learning+and+AI;Shipped+19%2B+Deployed+ML+%2F+AI+Systems;Built+CNNs%2C+LSTMs+%26+RAG+Pipelines;Turning+Data+Into+Real+Products" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -24,7 +24,7 @@
 <tr>
 <td valign="top" width="60%">
 
-```python
+````python
 class Burhan:
     def __init__(self):
         self.name        = "Burhan Arshad"
@@ -34,8 +34,8 @@ class Burhan:
         self.cgpa        = 3.99
         self.location    = "Gujranwala, Pakistan"
         self.focus       = ["Machine Learning", "Deep Learning",
-                             "NLP", "Computer Vision"]
-        self.hobby       = "Game Development (Unity)"
+                             "NLP", "Generative AI", "Computer Vision"]
+        self.exploring   = "RAG Pipelines & MLOps"
         self.philosophy  = "Learn. Build. Break. Improve. Deploy."
 
     def currently_building(self):
@@ -44,12 +44,12 @@ class Burhan:
 me = Burhan()
 ````
 
-I'm a Computer Science student who believes in **learning by building**. From ML models to a cloud SaaS platform to multiplayer games — every project is a chance to turn theory into something real. Alongside AI, I also work with **WordPress, Shopify, and full-stack web development**, and I coordinate coding-related sessions and presentations for my university's **Coding Club**.
+I'm a Computer Science student who believes in **learning by building**. My primary focus is Machine Learning and AI — spanning deep learning, computer vision, NLP, and Retrieval-Augmented Generation — and I always take a model past the notebook and deploy it as a real, usable application. Alongside AI, I also work with full-stack and cloud development, and I coordinate coding-related sessions and presentations for my university's **Coding Club**.
 
 </td>
 <td valign="top" width="40%">
 
-<img src="https://img.shields.io/badge/STATUS-FOCUSED_ON_ML%2FAI-00E5FF?style=for-the-badge&labelColor=0D0221" /><br/><br/> <img src="https://img.shields.io/badge/SHIPPED-GAME_DEV-8A2BE2?style=for-the-badge&labelColor=0D0221" /><br/><br/> <img src="https://img.shields.io/badge/SHIPPED-SAAS_PLATFORM-8A2BE2?style=for-the-badge&labelColor=0D0221" /><br/><br/> <img src="https://img.shields.io/badge/SHIPPED-ML_MODELS-8A2BE2?style=for-the-badge&labelColor=0D0221" /><br/><br/> <img src="https://img.shields.io/badge/ROLE-CODING_CLUB_COORDINATOR-8A2BE2?style=for-the-badge&labelColor=0D0221" />
+<img src="https://img.shields.io/badge/STATUS-FOCUSED_ON_ML%2FAI-00E5FF?style=for-the-badge&labelColor=0D0221" /><br/><br/> <img src="https://img.shields.io/badge/SHIPPED-COMPUTER_VISION-8A2BE2?style=for-the-badge&labelColor=0D0221" /><br/><br/> <img src="https://img.shields.io/badge/SHIPPED-GENERATIVE_AI-8A2BE2?style=for-the-badge&labelColor=0D0221" /><br/><br/> <img src="https://img.shields.io/badge/SHIPPED-DEEP_LEARNING_MODELS-8A2BE2?style=for-the-badge&labelColor=0D0221" /><br/><br/> <img src="https://img.shields.io/badge/ROLE-CODING_CLUB_COORDINATOR-8A2BE2?style=for-the-badge&labelColor=0D0221" />
 
 </td>
 </tr>
@@ -63,86 +63,88 @@ I'm a Computer Science student who believes in **learning by building**. From ML
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/ML-99%25_ACCURACY-00E5FF?style=flat-square&labelColor=0D0221" />
+<img src="https://img.shields.io/badge/DL-99.19%25_VAL_ACCURACY-00E5FF?style=flat-square&labelColor=0D0221" />
 
-### 📱 SMS Spam Classifier
+### 🖐️ Real-Time ASL Sign Language Recognition
 
-NLP-based classifier distinguishing spam from legitimate SMS using **TF-IDF** + **Linear SVM**, tuned via GridSearchCV. Deployed with a real-time Streamlit interface.
+Computer vision system recognizing American Sign Language alphabet gestures from a **live webcam feed**. Custom CNN trained on 87,000 images (29 classes), served in real time over **FastAPI WebSockets**.
 
-**~99% accuracy · ~97% macro F1-score**
+**99.19% validation accuracy**
 
-`Python` `Scikit-learn` `TF-IDF` `Streamlit`
+`Python` `TensorFlow` `Keras` `CNN` `FastAPI` `WebSockets`
 
-[View Repo →](https://github.com/burhan-arshad/nlp-spam-detection) · [Live Demo →](https://nlp-spam-detection-burhan.streamlit.app/)
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/ML-REGRESSION-00E5FF?style=flat-square&labelColor=0D0221" />
-
-### 🚲 Bike Demand Prediction
-
-Regression model predicting bike rental demand from environmental & temporal features, using **Random Forest** optimized with GridSearchCV.
-
-`Python` `Pandas` `Scikit-learn` `Streamlit`
-
-[View Repo →](https://github.com/burhan-arshad/bike-demand-prediction) · [Live Demo →](https://bike-demand-prediction-burhan.streamlit.app/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/SAAS-MULTI--TENANT-8A2BE2?style=flat-square&labelColor=0D0221" />
-
-### ☁️ Cloud-Based SaaS Inventory System
-
-Multi-tenant inventory management platform with tenant isolation, structured database architecture, and real-time data sync.
-
-`PostgreSQL` `Supabase` `SQL` `Realtime`
-
-[View Repo →](https://github.com/burhan-arshad/inventory-saas) · [Live Demo →](https://inventory-saas-eight.vercel.app/)
+[View Repo →](https://github.com/burhan-arshad/realtime-sign-language-recognition) · [Live Demo →](https://realtime-sign-language-recognition-burhan.onrender.com/)
 
 </td>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/GAME-MULTIPLAYER-8A2BE2?style=flat-square&labelColor=0D0221" />
+<img src="https://img.shields.io/badge/DL-BEHAVIORAL_CLONING-00E5FF?style=flat-square&labelColor=0D0221" />
 
-### 🎮 Unity Multiplayer Burglary Game
+### 🚗 Self-Driving Car — Behavioral Cloning
 
-Multiplayer stealth game with networked player movement, interactive environments, and cooperative/competitive gameplay.
+End-to-end autonomous driving system inspired by **NVIDIA PilotNet**. A CNN maps raw camera frames directly to steering angles, with multi-camera training and real-time simulator control.
 
-`Unity` `C#` `Netcode`
+`Python` `TensorFlow` `Keras` `OpenCV` `CNN`
 
-[View Repo →](https://github.com/burhan-arshad/Unity-Multiplayer-Burglary-Game)
+[View Repo →](https://github.com/burhan-arshad/self-driving-car-simulator)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/GAME-HORROR-8A2BE2?style=flat-square&labelColor=0D0221" />
+<img src="https://img.shields.io/badge/GENAI-RAG_PIPELINE-00E5FF?style=flat-square&labelColor=0D0221" />
 
-### 🕹️ Debug or Die
+### 📄 RAG Document Assistant
 
-Narrative-driven horror survival game exploring atmosphere, pacing, and interactive storytelling.
+Retrieval-Augmented Generation app — upload a PDF/TXT and ask questions about it. Local embeddings, **ChromaDB** vector storage, MMR retrieval, and a **Groq**-hosted LLM for grounded, source-traceable answers.
 
-`Unity` `C#` `Blender`
+`Python` `LangChain` `ChromaDB` `Sentence-Transformers` `Groq` `Streamlit`
 
-[View Repo →](https://github.com/burhan-arshad/debug-or-die)
+[View Repo →](https://github.com/burhan-arshad/rag-document-summarizer) · [Live Demo →](https://rag-document-summarizer-burhan.streamlit.app/)
 
 </td>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/CLASSIC-C%2B%2B-8A2BE2?style=flat-square&labelColor=0D0221" />
+<img src="https://img.shields.io/badge/ML-RECOMMENDER_SYSTEM-00E5FF?style=flat-square&labelColor=0D0221" />
 
-### ♟️ 2-Player Console Chess
+### 🎬 CineMatch — Movie Recommendation System
 
-Full two-player chess game with complete game logic built from scratch in the console.
+Content-based recommender using **TF-IDF + cosine similarity**, served through a dedicated FastAPI backend and a Streamlit frontend, enriched with live TMDB data.
 
-`C++`
+`Python` `Scikit-learn` `FastAPI` `Streamlit` `TMDB API`
 
-[View Repo →](https://github.com/burhan-arshad/2-player-console-Chess-Game)
+[View Repo →](https://github.com/burhan-arshad/movie-recommendation-system) · [Live Demo →](https://movie-recommendation-system-burhan.streamlit.app/)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/DL-MEDICAL_IMAGING-00E5FF?style=flat-square&labelColor=0D0221" />
+
+### 🫁 Chest X-Ray Pneumonia Detection
+
+Custom CNN classifying chest X-rays as NORMAL or PNEUMONIA, evaluated **recall-first** since a missed case is the costlier error.
+
+**88% accuracy · 94% pneumonia recall**
+
+`Python` `TensorFlow` `Keras` `CNN` `Streamlit`
+
+[View Repo →](https://github.com/burhan-arshad/pneumonia-detection-on-x-rays) · [Live Demo →](https://pneumonia-detection-burhan.streamlit.app/)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/DL-BACKTESTED_SIGNAL-00E5FF?style=flat-square&labelColor=0D0221" />
+
+### 📈 BTC Directional Signal (LSTM)
+
+LSTM trained on 100,000 hourly BTC/USDT candles and 15 technical indicators to predict short-term price direction, judged by **out-of-sample backtesting** (Sharpe ratio, drawdown, win rate) instead of accuracy.
+
+`Python` `TensorFlow` `Keras` `LSTM` `Pandas` `Streamlit`
+
+[View Repo →](https://github.com/burhan-arshad/crypto-price-predictor) · [Live Demo →](https://crypto-price-predictor-burhan.streamlit.app/)
 
 </td>
 </tr>
@@ -158,7 +160,15 @@ Full two-player chess game with complete game logic built from scratch in the co
 
 <br/><br/>
 
-**Machine Learning / AI** <br/> <img src="https://go-skill-icons.vercel.app/api/icons?i=python,numpy,pandas,matplotlib,seaborn,sklearn,tensorflow" />
+**Machine Learning / AI** <br/> <img src="https://go-skill-icons.vercel.app/api/icons?i=python,numpy,pandas,matplotlib,seaborn,sklearn,tensorflow,opencv,jupyter" />
+
+<br/><br/>
+
+**Generative AI & NLP** <br/> <img src="https://go-skill-icons.vercel.app/api/icons?i=langchain,huggingface,groq" />
+
+<br/><br/>
+
+**Deployment & MLOps** <br/> <img src="https://go-skill-icons.vercel.app/api/icons?i=fastapi,streamlit,git,github" />
 
 <br/><br/>
 
@@ -188,8 +198,8 @@ Full two-player chess game with complete game logic built from scratch in the co
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/PROJECTS_SHIPPED-6-00E5FF?style=for-the-badge&labelColor=0D0221" />
-<img src="https://img.shields.io/badge/ML_ACCURACY-99%25-00E5FF?style=for-the-badge&labelColor=0D0221" />
+<img src="https://img.shields.io/badge/ML_%2F_AI_PROJECTS-19-00E5FF?style=for-the-badge&labelColor=0D0221" />
+<img src="https://img.shields.io/badge/BEST_MODEL_ACCURACY-99.19%25-00E5FF?style=for-the-badge&labelColor=0D0221" />
 <img src="https://img.shields.io/badge/CGPA-3.99%2F4.00-00E5FF?style=for-the-badge&labelColor=0D0221" />
 
 </div>
