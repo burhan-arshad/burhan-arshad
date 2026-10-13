@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=650&lines=Computer+Science+Student;Focused+on+Machine+Learning+and+AI;Built+CNNs%2C+LSTMs+%26+RAG+Pipelines;Turning+Data+Into+Real+Products" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&width=650&lines=Computer+Science+Student;Focused+on+Machine+Learning+and+AI;Shipping+Deployed+ML+%2F+AI+Systems;Built+CNNs%2C+LSTMs+%26+RAG+Pipelines;Turning+Data+Into+Real+Products" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -59,6 +59,8 @@ I'm a Computer Science student who believes in **learning by building**. My prim
 
 <h2 align="center">🚀 FEATURED PROJECTS</h2>
 
+<h3>👁️ Computer Vision & Deep Learning</h3>
+
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
@@ -93,34 +95,6 @@ End-to-end autonomous driving system inspired by **NVIDIA PilotNet**. A CNN maps
 <tr>
 <td width="50%" valign="top">
 
-<img src="https://img.shields.io/badge/GENAI-RAG_PIPELINE-00E5FF?style=flat-square&labelColor=0D0221" />
-
-### 📄 RAG Document Assistant
-
-Retrieval-Augmented Generation app — upload a PDF/TXT and ask questions about it. Local embeddings, **ChromaDB** vector storage, MMR retrieval, and a **Groq**-hosted LLM for grounded, source-traceable answers.
-
-`Python` `LangChain` `ChromaDB` `Sentence-Transformers` `Groq` `Streamlit`
-
-[View Repo →](https://github.com/burhan-arshad/rag-document-summarizer) · [Live Demo →](https://rag-document-summarizer-burhan.streamlit.app/)
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/ML-RECOMMENDER_SYSTEM-00E5FF?style=flat-square&labelColor=0D0221" />
-
-### 🎬 CineMatch — Movie Recommendation System
-
-Content-based recommender using **TF-IDF + cosine similarity**, served through a dedicated FastAPI backend and a Streamlit frontend, enriched with live TMDB data.
-
-`Python` `Scikit-learn` `FastAPI` `Streamlit` `TMDB API`
-
-[View Repo →](https://github.com/burhan-arshad/movie-recommendation-system) · [Live Demo →](https://movie-recommendation-system-burhan.streamlit.app/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 <img src="https://img.shields.io/badge/DL-MEDICAL_IMAGING-00E5FF?style=flat-square&labelColor=0D0221" />
 
 ### 🫁 Chest X-Ray Pneumonia Detection
@@ -136,11 +110,81 @@ Custom CNN classifying chest X-rays as NORMAL or PNEUMONIA, evaluated **recall-f
 </td>
 <td width="50%" valign="top">
 
+<img src="https://img.shields.io/badge/DL-43_CLASS_CNN-00E5FF?style=flat-square&labelColor=0D0221" />
+
+### 🚦 GTSRB — German Traffic Sign Recognition
+
+CNN trained on the German Traffic Sign Recognition Benchmark to classify **43 traffic sign categories**, with an in-graph augmentation pipeline and a full EDA → preprocessing → training → deployment workflow.
+
+`Python` `TensorFlow` `Keras` `CNN` `Streamlit`
+
+[View Repo →](https://github.com/burhan-arshad/german-traffic-sign-predictor) · [Live Demo →](https://german-traffic-sign-predictor-burhan.streamlit.app/)
+
+</td>
+</tr>
+</table>
+
+<h3>🧬 Generative AI & NLP</h3>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/GENAI-RAG_PIPELINE-00E5FF?style=flat-square&labelColor=0D0221" />
+
+### 📄 RAG Document Assistant
+
+Retrieval-Augmented Generation app — upload a PDF/TXT and ask questions about it. Local embeddings, **ChromaDB** vector storage, MMR retrieval, and a **Groq**-hosted LLM for grounded, source-traceable answers.
+
+`Python` `LangChain` `ChromaDB` `Sentence-Transformers` `Groq` `Streamlit`
+
+[View Repo →](https://github.com/burhan-arshad/rag-document-summarizer) · [Live Demo →](https://rag-document-summarizer-burhan.streamlit.app/)
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/NLP-99%25_ACCURACY-00E5FF?style=flat-square&labelColor=0D0221" />
+
+### 📱 SMS Spam Classifier
+
+NLP classifier distinguishing spam from legitimate SMS using **TF-IDF + Linear SVM**, tuned via GridSearchCV and deployed with a real-time Streamlit interface.
+
+**~99% accuracy · ~97% macro F1-score**
+
+`Python` `Scikit-learn` `TF-IDF` `Streamlit`
+
+[View Repo →](https://github.com/burhan-arshad/nlp-spam-detection) · [Live Demo →](https://nlp-spam-detection-burhan.streamlit.app/)
+
+</td>
+</tr>
+</table>
+
+<h3>📊 Classical ML</h3>
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/ML-RECOMMENDER_SYSTEM-00E5FF?style=flat-square&labelColor=0D0221" />
+
+### 🎬 CineMatch — Movie Recommendation System
+
+Content-based recommender using **TF-IDF + cosine similarity**, served through a dedicated FastAPI backend and a Streamlit frontend, enriched with live TMDB data.
+
+`Python` `Scikit-learn` `FastAPI` `Streamlit` `TMDB API`
+
+[View Repo →](https://github.com/burhan-arshad/movie-recommendation-system) · [Live Demo →](https://movie-recommendation-system-burhan.streamlit.app/)
+
+</td>
+<td width="50%" valign="top">
+
 <img src="https://img.shields.io/badge/DL-BACKTESTED_SIGNAL-00E5FF?style=flat-square&labelColor=0D0221" />
 
 ### 📈 BTC Directional Signal (LSTM)
 
-LSTM trained on 100,000 hourly BTC/USDT candles and 15 technical indicators to predict short-term price direction, judged by **out-of-sample backtesting** (Sharpe ratio, drawdown, win rate) instead of accuracy.
+LSTM trained on 100,000 hourly BTC/USDT candles and 15 technical indicators to predict short-term price direction, judged by **out-of-sample backtesting** instead of accuracy.
+
+**53.6% directional win rate (backtested)**
 
 `Python` `TensorFlow` `Keras` `LSTM` `Pandas` `Streamlit`
 
@@ -149,6 +193,86 @@ LSTM trained on 100,000 hourly BTC/USDT candles and 15 technical indicators to p
 </td>
 </tr>
 </table>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0221,50:6A0DAD,100:00E5FF&height=4" />
+
+<h2 align="center">🧪 EVALUATION PHILOSOPHY</h2>
+
+<div align="center">
+<table width="100%">
+<tr>
+<td width="25%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/-RECALL_FIRST-8A2BE2?style=flat-square&labelColor=0D0221" /><br/><br/>
+Pneumonia detection is tuned for **recall**, not raw accuracy — a missed positive case is the costlier mistake.
+
+</td>
+<td width="25%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/-BACKTESTED-8A2BE2?style=flat-square&labelColor=0D0221" /><br/><br/>
+The BTC signal is judged by **Sharpe ratio, drawdown & win rate** with transaction costs — never by classification accuracy alone.
+
+</td>
+<td width="25%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/-NO_LEAKAGE-8A2BE2?style=flat-square&labelColor=0D0221" /><br/><br/>
+Time-series models use strict **chronological splits**, with scalers fit only on training data.
+
+</td>
+<td width="25%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/-TRACEABLE-8A2BE2?style=flat-square&labelColor=0D0221" /><br/><br/>
+The RAG pipeline surfaces **retrieved source chunks** with every answer, so outputs stay verifiable.
+
+</td>
+</tr>
+</table>
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0221,50:6A0DAD,100:00E5FF&height=4" />
+
+<h2 align="center">🎓 EDUCATION</h2>
+
+<div align="center">
+
+| | |
+|---|---|
+| **Degree** | BS Computer Science |
+| **Institution** | University of Central Punjab |
+| **Status** | 4th Semester |
+| **CGPA** | 3.99 / 4.00 |
+| **Role** | Coding Club Coordinator |
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0221,50:6A0DAD,100:00E5FF&height=4" />
+
+<h2 align="center">🧰 WHAT I CAN HELP WITH</h2>
+
+<div align="center">
+<table width="100%">
+<tr>
+<td width="33%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/-ML_%2F_DL_MODELS-00E5FF?style=flat-square&labelColor=0D0221" /><br/><br/>
+Classification, regression, and deep learning models — from raw data to a trained, evaluated, deployable model.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/-GENAI_%2F_RAG-00E5FF?style=flat-square&labelColor=0D0221" /><br/><br/>
+RAG pipelines, LLM-integrated apps, embeddings, and vector-database-backed retrieval systems.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<img src="https://img.shields.io/badge/-MODEL_DEPLOYMENT-00E5FF?style=flat-square&labelColor=0D0221" /><br/><br/>
+Taking a model from notebook to production via FastAPI, WebSockets, or Streamlit.
+
+</td>
+</tr>
+</table>
+</div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0221,50:6A0DAD,100:00E5FF&height=4" />
 
@@ -165,6 +289,8 @@ LSTM trained on 100,000 hourly BTC/USDT candles and 15 technical indicators to p
 <br/><br/>
 
 **Generative AI & NLP** <br/> <img src="https://go-skill-icons.vercel.app/api/icons?i=langchain,huggingface,groq" />
+<br/>
+<sub>+ ChromaDB · Sentence-Transformers · Uvicorn</sub>
 
 <br/><br/>
 
@@ -185,6 +311,22 @@ LSTM trained on 100,000 hourly BTC/USDT candles and 15 technical indicators to p
 </div>
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0221,50:6A0DAD,100:00E5FF&height=4" />
 
+<h2 align="center">🧭 CURRENTLY EXPLORING</h2>
+
+<div align="center">
+
+**Machine Learning → Deep Learning → NLP → Computer Vision → Generative AI → Agentic AI**
+
+<br/>
+
+<img src="https://img.shields.io/badge/NOW-RAG_PIPELINES-00E5FF?style=for-the-badge&labelColor=0D0221" />
+<img src="https://img.shields.io/badge/NOW-MLOPS-00E5FF?style=for-the-badge&labelColor=0D0221" />
+<img src="https://img.shields.io/badge/NEXT-AGENTIC_AI-8A2BE2?style=for-the-badge&labelColor=0D0221" />
+
+</div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0D0221,50:6A0DAD,100:00E5FF&height=4" />
+
 <h2 align="center">📊 GITHUB STATS</h2>
 
 <div align="center">
@@ -198,7 +340,7 @@ LSTM trained on 100,000 hourly BTC/USDT candles and 15 technical indicators to p
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/ML_%2F_AI_PROJECTS-19-00E5FF?style=for-the-badge&labelColor=0D0221" />
+<img src="https://img.shields.io/badge/ML_%2F_AI-ACTIVE_PORTFOLIO-00E5FF?style=for-the-badge&labelColor=0D0221" />
 <img src="https://img.shields.io/badge/BEST_MODEL_ACCURACY-99.19%25-00E5FF?style=for-the-badge&labelColor=0D0221" />
 <img src="https://img.shields.io/badge/CGPA-3.99%2F4.00-00E5FF?style=for-the-badge&labelColor=0D0221" />
 
